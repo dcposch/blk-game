@@ -51,7 +51,7 @@ source blkrc
 
 # Build debug - do this when changing soy/gss/glsl/etc, but js is edit-reload
 anvil build -j1 :debug
-# Start a web server, open http://localhost:8080/client/index.html?dev
+# Start a web server, open http://localhost:8080/index.html?dev
 anvil serve &
 # Start a debug node game server
 ./server/server-uncompiled.js
